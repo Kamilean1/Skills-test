@@ -44,6 +44,7 @@ body {
 .container-1 {
     display: flex;
     flex-direction: column;
+    margin-top: 3vw;
 
     .text1 {
         font-family: $main-text-font;
@@ -73,6 +74,7 @@ body {
 .search-bar {
     display: flex;
     margin-top: 48px;
+    margin-bottom: 5vw;
 
     .search-bar-box {
         width: 503px;
@@ -110,5 +112,35 @@ body {
 
     .search-bar-btn:hover {
         color: $accent-color-blue;
+    }
+}
+
+.scroll-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .scroll-btn {
+        font-family: $main-text-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 2.8px;
+        color: $main-text-color;
+        cursor: pointer;
+    }
+
+    .scroll-btn:hover {
+        text-shadow: 2px 0 5px $main-color;
+    }
+
+    .arrow {
+        width: 17px;
+        height: 11px;
     }
 }

@@ -182,8 +182,64 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+    .page-2-container {
+        width: 560px;
+        height: 158px;
+        margin-top: 10vw;
+        margin-left: 18.5vw;
+
+        .title {
+            font-family: $details-font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            color: $main-text-color;
+        }
+
+        .info {
+            font-family: $main-text-font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1.6px;
+            color: #E8E8E8;
+            margin-top: 50px;
+        }
+
+        .explore-btn {
+            width: 228px;
+            height: 63px;
+            background-color: $accent-color;
+            font-family: $details-font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: $main-text-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 45px;
+        }
+    }
+
+    .images {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
 }
 
 .icons-container {
@@ -212,7 +268,7 @@ body {
     background-image: url(../Images/Background/spainseaview.png);
     background-repeat: no-repeat;
     background-size: cover;
-   display: flex;
+    display: flex;
 }
 
 .page-5 {

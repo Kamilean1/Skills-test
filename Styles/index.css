@@ -63,7 +63,6 @@ body {
   line-height: 26px;
   letter-spacing: 6.82px;
   color: white;
-  margin-top: 20px;
   display: flex;
 }
 
@@ -114,7 +113,7 @@ body {
   align-items: center;
 }
 .scroll-down .scroll-btn {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -132,4 +131,32 @@ body {
 .scroll-down .arrow {
   width: 17px;
   height: 11px;
+}
+
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 94vw;
+  height: 83px;
+  background-color: #5474FD;
+}
+.nav-bar-container .nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.nav-bar-container .nav-item {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
 }/*# sourceMappingURL=index.css.map */

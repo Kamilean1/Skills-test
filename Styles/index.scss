@@ -287,6 +287,80 @@ body {
     display: flex;
 }
 
+.page-3-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 543px;
+    height: 374px;
+    background-color: #232323;
+    opacity: .9;
+    margin-left: 19vw;
+    margin-top: 13vw;
+
+    .heading {
+        font-family: $main-text-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1.5px;
+        color: #E8E8E8;
+        margin-left: 32px;
+        margin-top: 49px;
+    }
+
+    .title {
+        font-family: $main-text-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: $main-text-color;
+        margin-left: 32px;
+        margin-top: 15px;
+    }
+
+    .info {
+        font-family: $main-text-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        color: #E8E8E8;
+        margin-left: 32px;
+        margin-top: 4px;
+    }
+
+    .book-btn {
+        width: 228px;
+        height: 63px;
+        background-color: $accent-color;
+        font-family: $details-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        color: $main-text-color;
+        display: flex;
+        justify-content: center;
+        margin-left: 32px;
+        margin-top: 46px;
+        cursor: pointer;
+    }
+}
+
 .page-4 {
     max-width: 1800px;
     width: 100vw;

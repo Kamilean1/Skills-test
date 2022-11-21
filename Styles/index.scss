@@ -153,10 +153,10 @@ body {
     height: 83px;
     background-color: $accent-color;
 
-.logo {
-    display: flex;
-    margin-left: 20vw;
-}
+    .logo {
+        display: flex;
+        margin-left: 20vw;
+    }
 
     .nav-list {
         display: flex;
@@ -240,12 +240,31 @@ body {
             margin-top: 45px;
         }
     }
+}
 
-    .images {
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        flex-direction: column;
+.image-1-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .image-1 {
+        width: 350px;
+        height: 220px;
+        margin-left: 32vw;
+        margin-top: -12vw;
+    }
+}
+
+.image-2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .image-2 {
+        width: 350px;
+        height: 220px;
+        margin-left: 43vw;
+        margin-top: 10px;
     }
 }
 
@@ -289,7 +308,7 @@ body {
 
     .page-5-title {
         display: flex;
-       justify-content: flex-start;
+        justify-content: flex-start;
     }
 }
 

@@ -346,6 +346,78 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.page-4-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 543px;
+  height: 374px;
+  background-color: #232323;
+  opacity: 0.9;
+  margin-right: 18vw;
+  margin-bottom: 5vw;
+}
+.page-4-container .heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+  margin-left: 32px;
+  margin-top: 49px;
+}
+.page-4-container .title {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 32px;
+  margin-top: 15px;
+}
+.page-4-container .info {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #E8E8E8;
+  margin-left: 32px;
+  margin-top: 4px;
+}
+.page-4-container .book-btn {
+  width: 228px;
+  height: 63px;
+  background-color: #5474FD;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 32px;
+  margin-top: 46px;
+  cursor: pointer;
 }
 
 .page-5 {

@@ -178,6 +178,10 @@ body {
         color: $main-color;
         margin-left: 50px;
     }
+
+    .nav-item:hover {
+        text-shadow: 2px 0 5px $main-color;
+    }
 }
 
 .page-2 {
@@ -241,6 +245,11 @@ body {
             opacity: .8;
         }
     }
+
+    .explore-btn:hover {
+        text-shadow: 2px 0 5px $main-color;
+        cursor: pointer;
+    }
 }
 
 .image-1-container {
@@ -276,6 +285,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .arches {
+        position: absolute;
+        margin-top: -4vw;
+    }
 
     .icon-text-1 {
         font-family: $details-font;
@@ -381,6 +395,10 @@ body {
         margin-top: 46px;
         cursor: pointer;
     }
+
+    .book-btn:hover {
+        text-shadow: 2px 0 5px $main-color;
+    }
 }
 
 .page-4 {
@@ -466,6 +484,10 @@ body {
         margin-left: 32px;
         margin-top: 46px;
         cursor: pointer;
+    }
+
+    .book-btn:hover {
+        text-shadow: 2px 0 5px $main-color;
     }
 }
 

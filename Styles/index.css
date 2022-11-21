@@ -223,6 +223,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 45px;
+  opacity: 0.8;
 }
 
 .image-1-container {
@@ -256,6 +257,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.icons-container .icon-text-1 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #E8E8E8;
+  margin-top: 2.5vw;
+}
+.icons-container .icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .page-3 {

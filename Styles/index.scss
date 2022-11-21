@@ -238,6 +238,7 @@ body {
             justify-content: center;
             align-items: center;
             margin-top: 45px;
+            opacity: .8;
         }
     }
 }
@@ -275,6 +276,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .icon-text-1 {
+        font-family: $details-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #E8E8E8;
+        margin-top: 2.5vw;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
 
 .page-3 {

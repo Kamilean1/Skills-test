@@ -455,11 +455,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    .page-5-title {
-        display: flex;
-        justify-content: flex-start;
-    }
+.page-5-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: $details-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $main-text-color;
 }
 
 .footer {

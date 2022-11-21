@@ -448,6 +448,44 @@ body {
   color: white;
 }
 
+.page-5-container {
+  width: 1113px;
+  height: 287px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+.page-5-container .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 59px;
+}
+.page-5-container .info .heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FEFEFE;
+}
+.page-5-container .info .page-info {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #FEFEFE;
+  margin-top: 8px;
+}
+
 .footer {
   width: 100vw;
   height: 271px;

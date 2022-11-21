@@ -153,11 +153,17 @@ body {
     height: 83px;
     background-color: $accent-color;
 
+.logo {
+    display: flex;
+    margin-left: 20vw;
+}
+
     .nav-list {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: flex-end;
+        margin-left: 20vw;
     }
 
     .nav-item {
@@ -170,6 +176,7 @@ body {
         align-items: center;
         text-transform: uppercase;
         color: $main-color;
+        margin-left: 50px;
     }
 }
 

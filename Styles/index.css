@@ -143,11 +143,16 @@ body {
   height: 83px;
   background-color: #5474FD;
 }
+.nav-bar-container .logo {
+  display: flex;
+  margin-left: 20vw;
+}
 .nav-bar-container .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-left: 20vw;
 }
 .nav-bar-container .nav-item {
   font-family: "Aleo", serif;
@@ -159,6 +164,7 @@ body {
   align-items: center;
   text-transform: uppercase;
   color: white;
+  margin-left: 50px;
 }
 
 .page-2 {

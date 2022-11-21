@@ -269,6 +269,10 @@ body {
   background-size: cover;
   display: flex;
 }
+.page-5 .page-5-title {
+  display: flex;
+  justify-content: flex-start;
+}
 
 .footer {
   width: 100vw;

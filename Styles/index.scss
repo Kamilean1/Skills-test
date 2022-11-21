@@ -286,6 +286,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+
+    .page-5-title {
+        display: flex;
+       justify-content: flex-start;
+    }
 }
 
 .footer {
